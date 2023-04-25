@@ -28,7 +28,10 @@ const Logout = ({ setIsAuthenticated }) => {
 
   return (
     <button
-      style={{ marginLeft: '12px' }}
+      style={{     'right': '1rem',
+        'position': 'absolute',
+        'top': '2rem',
+        'background': 'red' }}
       className="muted-button"
       onClick={handleLogout}
     >

@@ -872,7 +872,7 @@ a.accent-button:active {
 a.muted-button {
   background: transparent;
   border: 1px solid #cdcdcd;
-  color: #4e4e4e;
+  color: #373636;
 }
 
 .muted-button:hover,

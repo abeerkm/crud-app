@@ -49,6 +49,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
                   <button
                     onClick={() => handleDelete(employee.id)}
                     className="button muted-button"
+                    style={{'color':'red'}}
                   >
                     Delete
                   </button>
